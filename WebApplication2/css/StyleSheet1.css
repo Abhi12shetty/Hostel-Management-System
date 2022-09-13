@@ -1,0 +1,145 @@
+﻿.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+.footerlinks:hover {
+    color: #ffd800;
+}
+
+#footer1 {
+    background-color: #080B48;
+}
+
+#footer2 {
+    background: black;
+}
+
+
+.vid {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+   
+    filter: opacity(100%);
+    position:absolute;
+}
+.habibi {
+    font-size: 400%;
+    color: #17039A;
+    font-weight:bolder;
+}
+.bhai {
+    top: 246px;
+    color: ghostwhite;
+    font-weight: 600;
+    font-size: 500%;
+    text-align: center;
+    position: relative;
+    font-family: monospace;
+}
+.bc:hover {
+    background-color: gainsboro;
+}
+.shsh th {
+    text-align: center;
+    padding: 4.75rem;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.ac {
+    color: red;
+}
+
+
+.abh {
+    color: dodgerblue;
+    font-size: 15px;
+}
+
+#abt{
+    color:darkblue;
+}
+
+.boss {
+    animation: blinker 1s step-end infinite;
+    color: red;
+}
+
+.nav-link .boss {
+    color: red;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
+
+.pkp{
+    display:flex;
+}
+.cardss {
+    margin:90px;
+    padding: 15px;
+    width: 350px;
+    background: #222;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    user-select: none;
+}
+
+.cover-photoss {
+    position: relative;
+    background-image: url('../imgs/img111.jpeg');
+    background-size: cover;
+    height: 180px;
+    border-radius: 5px 5px 0 0;
+}
+
+.profiless {
+    position: absolute;
+    width: 120px;
+    bottom: -60px;
+    left: 15px;
+    border-radius: 50%;
+    border: 2px solid #222;
+    background: #222;
+    padding: 5px;
+}
+
+.profile-namess {
+    font-size: 20px;
+    margin: 25px 0 0 120px;
+    color: #fff;
+}
+
+.aboutss {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.iconss {
+    width: 180px;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.iconss i {
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    transition: 0.2s;
+}
